@@ -9,19 +9,19 @@ h1{
     color: rgb(63, 63, 63);
     text-align: center;
 }
-ul{
+ul.nav-list{
     display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: space-evenly;
-    font-size: 25px;
+    font-size: 30px;
     align-content: center;
     padding-inline-start: 0;
 }
 div.navigation{
     background-color: #bb3232;
     padding: 2px 0;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     border-radius: 5px;
 }
 div.content{
@@ -30,6 +30,7 @@ div.content{
     margin: 0 130px;
     padding: 10px;
     border-radius: 5px;
+    font-size: 25px;
 }
 h2{
     text-align: center;
@@ -52,12 +53,16 @@ button{
     border-radius: 5px;
     height: 40px;
     width: 100px;
+    margin-top: 25px;
 }
 button.suivant{
     /* margin-left:85%; */
     /* margin-top: 1%; */
     float: right;
-    
+}
+div.liste{
+    display: flex;
+    flex-direction: row;
 }
 @media screen and (max-width: 560px){
     body{
